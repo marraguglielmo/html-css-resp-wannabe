@@ -133,3 +133,22 @@ img {
         width: 90%;
     }
 }
+
+@media screen and (max-width:480px){
+    .container{
+        /* width: 100%; */
+    }
+
+    .row{
+        flex-direction: column;
+    }
+    
+    .row .col{
+        width: 100%;
+    }
+    
+    section.why-us{
+        background-color: #272727;
+        height: calc(100% +3rem);
+    }
+}
